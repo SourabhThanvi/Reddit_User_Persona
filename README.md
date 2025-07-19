@@ -76,25 +76,7 @@ streamlit run app.py
 ---
 
 ## Project Structure
-
-.
-├── llm/
-│ ├── llm_invoke.py # LLM invocation and persona synthesis
-│ ├── persona_file_creation.py # Markdown removal, file output
-├── prompts/
-│ ├── comment_prompt.py
-│ ├── post_prompt.py
-│ ├── persona_prompt.py
-│ ├── system_prompt.py
-├── reddit_scraper/
-│ ├── scrape_comments.py
-│ ├── scrape_posts.py
-├── main.py # FastAPI backend
-├── app.py # Streamlit web UI
-├── requirements.txt
-└── .env # (user secrets, not checked in)
-
----
+<pre lang="markdown"> ``` . ├── llm/ │ ├── llm_invoke.py # LLM invocation and persona synthesis │ ├── persona_file_creation.py # Markdown removal, file output ├── prompts/ │ ├── comment_prompt.py │ ├── post_prompt.py │ ├── persona_prompt.py │ ├── system_prompt.py ├── reddit_scraper/ │ ├── scrape_comments.py │ ├── scrape_posts.py ├── main.py # FastAPI backend ├── app.py # Streamlit web UI ├── requirements.txt └── .env # (user secrets, not checked in) ``` </pre>---
 
 ## Tech Stack
 
